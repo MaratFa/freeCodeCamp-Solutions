@@ -1,0 +1,15 @@
+body {
+  background-image: url("https://scitechdaily.com/images/Super-Earth-Exoplanet-Illustration-777x518.jpg");
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+h1, p {
+    text-align: center;
+}
+
+label {
+  display: block;
+  padding: 0.5rem;
+}

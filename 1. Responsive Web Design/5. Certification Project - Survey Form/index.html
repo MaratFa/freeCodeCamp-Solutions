@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Thank you for your help in achieving the world's energy future!
+      </p>
+      <form id="survey-form" action="">
+        <fieldset>
+          <label id="name-label" for="name">
+            Name
+            <input
+              name="name"
+              id="name"
+              type="text"
+              placeholder="Enter your name"
+              required
+            />
+          </label>
+          <label id="email-label" for="email">
+            Email
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your Email"
+              required
+            />
+          </label>
+          <label id="number-label">
+            Duration of work with fuels in years (optional)
+            <input
+              name="duration"
+              id="number"
+              type="number"
+              min="0"
+              max="110"
+              placeholder="Duration"
+            />
+          </label>
+          <select name="" id="dropdown">
+            <option>Choose the fuel of the future</option>
+            <option>Petroleum fuel</option>
+            <option>Hydrogen</option>
+            <option>Electricity</option>
+            <option>Biofuels</option>
+            <option>Synthetic fuels</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
