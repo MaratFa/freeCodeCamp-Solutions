@@ -1,6 +1,6 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
   color: white;  
 }
 
@@ -46,6 +46,7 @@ label {
 
 textarea {
   width: 100%;
+  margin-top: 0.5rem;
 }
 
 #submit {
@@ -54,7 +55,11 @@ textarea {
   background-color: rgb(59, 177, 115);
   color: rgb(255, 255, 255);
   border: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 0 0 0.2rem;
+  background-color: rgb(90, 128, 185);
+  font-size: 1em;
+  font-weight: bold;
 }
 
 fieldset {
